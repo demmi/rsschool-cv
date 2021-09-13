@@ -1,0 +1,147 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100%;
+    font-family: Roboto;
+    background: url("./assets/images/watercolor-paper.jpg") fixed;
+    background-size: cover;
+    margin: 0;
+    /* background-attachment: scroll; */
+
+}
+
+.wrapper {}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    background-color: #1A2323;
+    width: 100%;
+    max-width: inherit;
+    box-shadow: 0 5px 7px rgb(0 0 0 / 75%);
+    z-index: 50;
+}
+
+.header__menu {}
+
+.header__list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__list li {
+    list-style: none;
+    padding: 0px 20px 0px 20px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+main {
+    padding-top: 51px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: inherit;
+}
+
+.title {
+    padding-top: 100px;
+}
+
+.my {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2C383C;
+    box-shadow: 0 5px 7px rgb(0 0 0 / 75%);
+    z-index: 49;
+}
+
+.my h1 {
+    font-size: 42px;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+    padding: 10px 0;
+
+}
+
+.my h2 {
+    font-size: 24px;
+    color: #818C92;
+    font-weight: 400;
+    margin: 0;
+}
+
+.round {
+    border-radius: 50%;
+    box-shadow: 0 5px 7px rgb(0 0 0 / 75%);
+}
+
+.skills {
+    background-color: #A2ABB2;
+    z-index: 48;
+    padding: 0 10px;
+    color: #346767;
+}
+
+.skills li {
+
+    list-style: none;
+    padding: 0px 20px 0px 20px;
+}
+
+.skills__row {
+    display: flex;
+    padding: 30px 10px;
+}
+
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 10px;
+}
+
+.skills__list img {
+    vertical-align: middle;
+}
+
+.skills__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+}
+
+.skills__star {
+    text-shadow: 0 3px 3px rgb(52 103 103 / 50%);
+}
+
+.checked {
+    color: white;
+    padding: 0;
+    text-shadow: none;
+}
+
+.english,
+.experience,
+.education,
+.activities,
+.recommendations {
+    background-color: white;
+    color: #5A666A;
+}
