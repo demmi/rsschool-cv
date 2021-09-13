@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     height: 100%;
     font-family: Roboto;
-    background: url("./assets/images/watercolor-paper.jpg") fixed;
-    background-size: cover;
+    background-color: #3c3c3c;
     margin: 0;
-    /* background-attachment: scroll; */
-
 }
 
 .wrapper {}
@@ -96,10 +96,10 @@ main {
     z-index: 48;
     padding: 0 10px;
     color: #346767;
+    scroll-margin-top: 4rem;
 }
 
 .skills li {
-
     list-style: none;
     padding: 0px 20px 0px 20px;
 }
@@ -144,4 +144,46 @@ main {
 .recommendations {
     background-color: white;
     color: #5A666A;
+    padding: 20px 20px;
+    scroll-margin-top: 4rem;
+}
+
+.education img {
+    filter: grayscale(100%);
+}
+
+.contact {
+    background-color: #A2ABB2;
+    color: #346767;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #346767;
+}
+
+.contact li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A2323;
+    color: white;
+    padding: 0 10px;
+}
+
+footer img {
+    filter: invert(100%);
 }
